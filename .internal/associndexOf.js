@@ -1,7 +1,7 @@
 import eq from '../eq.js'
 
 /**
- * 获取数组中某一指定key的索引
+ * 获取以键值对为元素的数组中某一指定key的索引
  * 
  * @param {Array} 作为数据源的数组
  * @param {*} 将被搜索的key
