@@ -26,4 +26,12 @@ class SetCache {
         this.__data__.set(value,HASH_UNDEFINED)
         return this
     }
+     /**
+      * 检查当前值是否被缓存
+      * @param{*} value The value to search for
+      * @returns {boolean} Returns `true` if `value` is found, else `false`
+      */
+      has(value) {
+          return this.__data__.has(value)
+      }
 }
