@@ -17,4 +17,13 @@ class SetCache {
             this.add(values[index])
         }
     }
+    /**
+     * 添加缓存项
+     * @param {*} value The value to cache
+     * @returns {Object} Returns the cache instance
+     */
+    add(value) {
+        this.__data__.set(value,HASH_UNDEFINED)
+        return this
+    }
 }
