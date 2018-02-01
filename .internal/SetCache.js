@@ -35,3 +35,7 @@ class SetCache {
           return this.__data__.has(value)
       }
 }
+
+SetCache.prototype.push = SetCache.prototype.add
+
+export default SetCache
