@@ -1,8 +1,8 @@
 /**
+ * 创建一个调用 func 的函数。 调用次数不超过 N 次。 之后再调用这个函数，将返回最后一个调用的结果。
  * 
  * @param {number} n 
- * @param {function} func 
- * 返回一个调用 n次 func方法的函数
+ * @param {function} func
  */
 function before(n, func) {
     let result
